@@ -24,46 +24,45 @@ A smart task management web app built with Streamlit that helps users organize t
 ---
 
 ## Project Structure
+```bash
 AI-Task-Productivity-Manager/
 
 │
-
 ├── app.py # Main Streamlit application
-
 ├── style.css # Custom UI styles
-
 ├── requirements.txt # Project dependencies
-
 ├── .gitignore # Files ignored by Git
-
 └── README.md # Project documentation
-
+```
 ---
 
 ## How to Run the Project Locally
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/Selda7/AI-Task-Productivity-Manager.git
 ```
 
 2. Navigate to the project folder:
-cd your-repo-name
-
+```bash
+cd AI-Task-Productivity-Manager
+```
 3. Install dependencies:
+```bash
 pip install -r requirements.txt
-
+```
 4. Run the app:
+```bash
 streamlit run app.py
-
+```
 ---
 
 ## Analytics Overview
 
 The analytics section provides insights into:
--Most active days
--Task distribution by type
--Task completion status
+- Most active days
+- Task distribution by type
+- Task completion status
 
 Interactive charts allow switching between visual and tabular views.
 
@@ -73,9 +72,8 @@ Interactive charts allow switching between visual and tabular views.
 
 The app uses a simple Decision Tree model trained on task history to predict whether a task is likely to be productive based on:
 
--Day of the week
-
--Task type
+- Day of the week
+- Task type
 
 ---
 

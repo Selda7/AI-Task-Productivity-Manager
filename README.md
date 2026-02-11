@@ -25,6 +25,7 @@ A smart task management web app built with Streamlit that helps users organize t
 
 ## Project Structure
 AI-Task-Productivity-Manager/
+
 │
 
 ├── app.py # Main Streamlit application
